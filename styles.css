@@ -1,0 +1,210 @@
+/* General Styling */
+
+
+
+body {
+  background-color: white;
+  font-family: 'Rokkitt', sans-serif;
+overflow-x: hidden;
+  }
+  /* STRUCTURE */
+
+
+  img {
+      max-width:80%;
+    padding-top: 5%}
+   .image1
+    {
+    max-width: 100%;
+    }
+    .image2
+    {max-width: 90%;
+    * For IE8 and earlier */
+
+    }
+    .image2:hover {
+      opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */ /* For IE8 and earlier */
+    }
+  }
+  /* Mobile Styles */
+  @import url(https://fonts.googleapis.com/css?family=Rokkitt);
+
+body {
+  background-color: white;
+  font-family: 'Rokkitt', sans-serif;
+}
+
+/* STRUCTURE */
+#container{
+  width: auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+header {
+	height: 100px;
+	padding: 0 15px;
+}
+#content {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+footer {
+	clear: both;
+	padding: 0 15px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+
+	#sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+
+	header, footer {
+		padding: 1% 4%;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+	#sidebar {
+    width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2px;
+	}
+	#sidebar {
+    width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+}
+
+
+#content {
+}
+#sidebar {
+}
+header, #content, #middle, #sidebar {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header, #content, #middle, #sidebar, footer {
+}
+h1 {
+ margin-left: auto;
+ margin-right: auto;
+ font-family: 'Rokkitt', sans-serif;
+ font-weight: 700;
+ font-size: 50px;
+
+}
+
+  h2 {
+    font-family: 'Rokkitt', serif;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px
+    }
+
+          h5{
+              margin-left: auto;
+              margin-right: auto;
+              font-family: 'Rokkitt', sans-serif;
+              font-size: 10px;
+              font-weight: 300;
+              padding-top: 5px;
+              padding-bottom: 5px;
+          }
+
+      h4{
+          margin-left: auto;
+          margin-right: auto;
+          font-family: 'Rokkitt', sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+      }
+
+
+      a:link {
+          text-decoration: none;
+      }
+
+      a:visited {
+          text-decoration: none;
+      }
+
+      a:hover {
+          text-decoration: underline;
+      }
+
+      a:active {
+          text-decoration: underline;
+      }
+    }
